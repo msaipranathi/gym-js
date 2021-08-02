@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black">
+    <div class="absolute top-0 w-full h-full bg-top bg-cover " style="background-image: url(gym.jpg);">
+        <h1 class="text-2xl font-bold leading-relaxed block py-2 uppercase text-white text-center mt-5">The <span class="text-yellow-500"> Power Room </span></h1>
+        <div class=" p-6 mt-5 w-4/5 mr-auto ml-auto">
+            <form action="details.html" id="form" onclick="return validate()" class="w-1/2 bg-white ml-auto mr-auto py-4 px-3 rounded-md">
+                <h1 id="h1" class="text-center mb-3 font-sans font-bold text-xl">Registration Form</h1>
+                <label for="" class="font-sans font-semibold">Full Name</label>
+                <br>
+                <input type="text" name="" id="text" class="p-1 w-4/5 border-2 border-solid border-gray-300 rounded-md focus:outline-none inline-block mb-2">
+                <br>
+                <div id="div1" class="text-red-500 mb-1"></div>
+                
+                <label for="" class="font-sans font-semibold">Password</label>
+                <br>
+                <input type="password" name="" id="pass" class="p-1 w-4/5 border-2 border-solid border-gray-300 rounded-md focus:outline-none inline-block mb-2">
+                <br>
+                <div id="div2" class="text-red-500 mb-1"></div>
+                
+                <label for="" class="font-sans font-semibold">Password Confirmation</label>
+                <br>
+                <input type="password" name="" id="passcon" class="p-1 w-4/5 border-2 border-solid border-gray-300 rounded-md focus:outline-none inline-block mb-2">
+                <br>
+                <div id="div3" class="text-red-500 mb-1"></div>
+                
+                <label for="" class="font-sans font-semibold">Mobile Number</label>
+                <br>
+                <input type="text" id="mobile" class="p-1 w-4/5 border-2 border-solid border-gray-300 rounded-md focus:outline-none inline-block mb-2">
+                <br>
+                <div id="div4" class="text-red-500 mb-1"></div>
+                
+                <a href="details.html"><button class="block ml-auto mt-5 mr-auto bg-yellow-500 cursor-pointer text-white px-3 py-2 rounded-md focus:outline-none" type="submit">Personal Details</button></a>
+            </form>
+        </div>
+    </div>
+    <script src="jscript.js" defer></script>
+</body>
+</html>
